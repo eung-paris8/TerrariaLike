@@ -1,4 +1,4 @@
-package personnages;
+package modele.personnages;
 
 public class Personnages {
 
