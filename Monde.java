@@ -1,5 +1,4 @@
 
 public class Monde {
-	vfdsvgsd
 	
 }
