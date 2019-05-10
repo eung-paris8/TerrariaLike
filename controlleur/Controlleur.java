@@ -5,6 +5,7 @@ public class Controlleur {
 		System.out.println("Hello !");
 		System.out.println("Yolo");
 		System.out.println("POURQUOI JAVAFX FONCTIONNE PAS");
+		System.out.println("JE SAIS PAS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 	}
 	
 }
