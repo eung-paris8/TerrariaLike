@@ -11,6 +11,7 @@ import java.util.StringTokenizer;
 
 public class Monde {
 
+
 	public int[][] map;
 	private String fichierTerrain;
 
@@ -63,6 +64,7 @@ public class Monde {
 		}
 
 	}
+
 	
 	public int[][] getMap(){
 		return map;
