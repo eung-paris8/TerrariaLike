@@ -1,5 +1,5 @@
 package modele.personnages;
 
-public class Joueur  extends Personnages{
+public class Joueur extends Personnages{
 
 }
