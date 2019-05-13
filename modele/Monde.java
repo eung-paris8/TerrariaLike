@@ -23,7 +23,7 @@ public class Monde {
 
 	public void initiallizeMap() {
 		File fichier = new File(fichierTerrain);
-		String ligne="";
+		String ligne="";	
 		BufferedReader lecteurFicher;
 
 		try {
