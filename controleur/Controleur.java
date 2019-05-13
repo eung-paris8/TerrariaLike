@@ -1,9 +1,9 @@
-package controlleur;
+package controleur;
 
 import javafx.fxml.FXML;
 import javafx.scene.layout.Pane;
 
-public class Controlleur {
+public class Controleur {
 
     @FXML
     private Pane ciel_bleu;
