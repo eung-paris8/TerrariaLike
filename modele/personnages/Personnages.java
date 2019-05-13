@@ -1,7 +1,5 @@
 package modele.personnages;
 
-import java.io.ObjectInputStream.GetField;
-import javax.swing.text.SimpleAttributeSet;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 
