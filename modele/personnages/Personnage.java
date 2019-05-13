@@ -1,11 +1,9 @@
 package modele.personnages;
 
-import java.io.ObjectInputStream.GetField;
-import javax.swing.text.SimpleAttributeSet;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 
-public class Personnages {
+public class Personnage {
 	
 	protected String nom;
 	protected int vitesse;
@@ -13,7 +11,7 @@ public class Personnages {
 	protected IntegerProperty yProperty;
 	
 	
-	public Personnages(String nom, int vitesse, int x, int y) {
+	public Personnage(String nom, int vitesse, int x, int y) {
 		this.nom = nom;
 		this.vitesse = vitesse;
 		this.xProperty= new SimpleIntegerProperty(x);
