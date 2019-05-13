@@ -12,7 +12,7 @@
                <children>
                   <Pane fx:id="fond_terrain" prefHeight="400.0" prefWidth="600.0">
                      <children>
-                        <Pane fx:id="blocks_terre" prefHeight="400.0" prefWidth="600.0" />
+                        <Pane fx:id="blocs_terre" prefHeight="400.0" prefWidth="600.0" />
                      </children>
                   </Pane>
                </children>

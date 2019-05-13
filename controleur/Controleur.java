@@ -12,7 +12,7 @@ public class Controleur {
     private Pane fond_terrain;
 
     @FXML
-    private Pane blocks_terre;
+    private Pane blocs_terre;
     
 }
 
