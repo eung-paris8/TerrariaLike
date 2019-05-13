@@ -27,6 +27,23 @@ public class Personnage {
 		return this.vitesse;
 	}
 	
+	public final int getX() {
+		return this.xProperty.getValue();
+	}
+	
+	public final int getY() {
+		return this.yProperty.getValue();
+	}
+	
+	public void setXProperty(int x) {
+		this.xProperty.set(x);
+	}
+	
+	public void setYProperty(int y) {
+		this.yProperty.set(y);
+	}
+	
+	// Faire les mouvements des personnages ici
 	
 	
 	
