@@ -1,4 +1,4 @@
-package modele.armes;
+package modele.arme;
 
 public class Armes {
 	private String nomArme;
