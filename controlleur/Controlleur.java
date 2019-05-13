@@ -1,18 +1,17 @@
 package controlleur;
 
+import javafx.fxml.FXML;
+import javafx.scene.layout.Pane;
+
 public class Controlleur {
-	public static void main(String[] args) {
-		System.out.println("Hello !");
 
-		System.out.println("gqfgdq");
-		System.out.println("fdgq");
-	
+    @FXML
+    private Pane ciel_bleu;
 
-		System.out.println("Yolo");
-		System.out.println("POURQUOI JAVAFX FONCTIONNE PAS");
-		System.out.println("JE SAIS PAS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-		System.out.println("FDQFDQFDQ");
+    @FXML
+    private Pane fond_terrain;
 
-	}
-	
+    @FXML
+    private Pane blocks_terre;
+
 }
