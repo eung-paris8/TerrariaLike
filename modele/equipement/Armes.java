@@ -21,5 +21,6 @@ public class Armes {
 		return this.ptsDeVie;
 	}
 	
+	fsgfs
 
 }
