@@ -1,9 +1,7 @@
 package controleur;
 import javafx.util.Duration;
-
 import java.net.URL;
 import java.util.ResourceBundle;
-
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.fxml.FXML;
@@ -20,19 +18,13 @@ public class Controleur implements Initializable{
 
     @FXML
     private Pane fond_terrain;
-/*
     @FXML
-    private Pane blocks_terre;*/
+    private Pane blocks_terre;
     
     Monde theWorld = new Monde();
     Carte background = new Carte("ressource/Carte_Background.csv");
     Carte premierPlan = new Carte("ressource/Carte_Premier_Plan.csv");
     vueMonde mondeView = new vueMonde(theWorld);
-    
-    public void initialize() {
-    	
-		
-    }
     
     private void initAnimation() {
 		gameLoop = new Timeline();
@@ -50,10 +42,8 @@ public class Controleur implements Initializable{
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		// TODO Auto-generated method stub
-		
 		initAnimation();
 		gameLoop.play();
-		//mondeView.creerVue(premierPlan, blocks_terre);
+		mondeView.creerVue(premierPlan, blocks_terre);
 		mondeView.creerVue(background, fond_terrain);	}
 }
