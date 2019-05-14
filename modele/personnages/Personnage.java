@@ -43,7 +43,7 @@ public class Personnage {
 		this.yProperty.set(y);
 	}
 	
-	// Faire les mouvements des personnages ici
+
 	
 	
 	

@@ -1,6 +1,6 @@
 package modele.arme;
 
-public class Armes {
+public class Armes extends Equipement{
 	private String nomArme;
 	private int ptsDeVie;
 	
