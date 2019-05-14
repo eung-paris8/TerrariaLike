@@ -45,5 +45,6 @@ public class Controleur implements Initializable {
 		initAnimation();
 		gameLoop.play();
 		mondeView.creerVue(premierPlan, blocks_terre);
-		mondeView.creerVue(background, fond_terrain);	}
+		mondeView.creerVue(background, fond_terrain);	
+		}
 }
