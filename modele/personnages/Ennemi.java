@@ -4,8 +4,8 @@ public class Ennemi extends Personnage {
 	protected String nom;
 	protected int ptsDegats;
 	IntegerProperty pv;
-	
-	
+
+
 	public Ennemi(String nom, int ptsDegats, int pv) {
 		this.nom = nom;
 		this.ptsDegats;
@@ -15,16 +15,16 @@ public class Ennemi extends Personnage {
 	public IntegerProperty getPvProperty() {
 		return this.pv;
 	}
-	
+
 	public int getPv() {
 		return this.pv.getValue();
 	}
-	
+
 	public int getPtsDegats() {
 		return this.ptsDegats;
 	}
-	
 
-	
+
+
 
 }
