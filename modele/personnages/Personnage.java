@@ -3,7 +3,7 @@ package modele.personnages;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 
-public class Personnages {
+public class Personnage {
 	
 	protected String nom;
 	protected int vitesse;
@@ -11,7 +11,7 @@ public class Personnages {
 	protected IntegerProperty yProperty;
 	
 	
-	public Personnages(String nom, int vitesse, int x, int y) {
+	public Personnage(String nom, int vitesse, int x, int y) {
 		this.nom = nom;
 		this.vitesse = vitesse;
 		this.xProperty= new SimpleIntegerProperty(x);
@@ -27,6 +27,23 @@ public class Personnages {
 		return this.vitesse;
 	}
 	
+	public final int getX() {
+		return this.xProperty.getValue();
+	}
+	
+	public final int getY() {
+		return this.yProperty.getValue();
+	}
+	
+	public void setXProperty(int x) {
+		this.xProperty.set(x);
+	}
+	
+	public void setYProperty(int y) {
+		this.yProperty.set(y);
+	}
+	
+	// Faire les mouvements des personnages ici
 	
 	
 	
