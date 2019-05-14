@@ -6,7 +6,7 @@ public class Equipement {
 	
 	public Equipement(String nomEquipement, int ptsDeVie) {
 		this.nomEquipement = nomEquipement;
-		this.ptsDeVie = ptsDeVie
+		this.ptsDeVie = ptsDeVie;
 	}
 	
 	public String getNomEquipement() {

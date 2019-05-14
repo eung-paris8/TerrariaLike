@@ -6,3 +6,4 @@ public class Slime extends Ennemi {
 	}
 
 }
+cvw
