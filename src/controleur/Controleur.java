@@ -11,7 +11,7 @@ import modele.Carte;
 import modele.Monde;
 import vue.vueMonde;
 
-public class Controleur implements Initializable{
+public class Controleur implements Initializable {
 	
 	private Timeline gameLoop;
 	private int temps;
