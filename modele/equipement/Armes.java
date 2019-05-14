@@ -1,4 +1,4 @@
-package modele.arme;
+package modele.equipement;
 
 
 public class Armes extends Equipement{

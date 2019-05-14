@@ -2,7 +2,7 @@
 import java.io.File;
 import java.net.URL;
 
-import controlleur.Controlleur;
+import controleur.Controleur;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
 
 	@Override
-	public void start(Stage primaryStage) {	ArrayList<MovableObjects> listeObjets;
+	public void start(Stage primaryStage) {	
 		try {
 			FXMLLoader loader = new FXMLLoader(); 											
 			URL url = new File("vue/vueJeu.fxml").toURI().toURL();		
