@@ -1,6 +1,6 @@
 import javafx.beans.property.IntegerProperty;
 
-public class Ennemi {
+public class Ennemi extends Personnage {
 	protected String nom;
 	protected int ptsDegats;
 	IntegerProperty pv;
